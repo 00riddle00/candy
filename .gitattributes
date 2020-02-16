@@ -1,0 +1,14 @@
+"*.conf" filter=lfs diff=lfs merge=lfs -text
+"*.css" filter=lfs diff=lfs merge=lfs -text
+"*.directory" filter=lfs diff=lfs merge=lfs -text
+"*.jpg" filter=lfs diff=lfs merge=lfs -text
+"*.mp3" filter=lfs diff=lfs merge=lfs -text
+"*.orig" filter=lfs diff=lfs merge=lfs -text
+"*.png" filter=lfs diff=lfs merge=lfs -text
+"*.scss" filter=lfs diff=lfs merge=lfs -text
+"*.scssc" filter=lfs diff=lfs merge=lfs -text
+"*.sh" filter=lfs diff=lfs merge=lfs -text
+"*.svg" filter=lfs diff=lfs merge=lfs -text
+"*.theme" filter=lfs diff=lfs merge=lfs -text
+"*.vim" filter=lfs diff=lfs merge=lfs -text
+"*.xpm" filter=lfs diff=lfs merge=lfs -text
