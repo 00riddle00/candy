@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:880be6cf74e2f4d888536f3901a0244e7d41bdb060f6944db18dcab98be79ed8
-size 68
+[Dolphin]
+PreviewsShown=true
+Timestamp=2016,10,19,13,36,1
+Version=3
