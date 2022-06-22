@@ -1,33 +1,3 @@
-@mixin calendar() {
-  calendar {
-    padding: 2px;
-    border-width: 1px;
-    border-radius: $roundness;
-    border-style: solid;
-    border-color: $borders;
-    color: $fg_color;
-
-    &.header {
-      border: none;
-      color: $selected_bg_color;
-    }
-
-    &.button {
-      color: $selected_bg_color;
-    }
-
-    &:selected {
-      border-radius: 0;
-      color: $selected_fg_color; 
-      background-color: $selected_bg_color;
-    }
-
-    &:indeterminate {
-      color: gtkalpha(currentColor, 0.55);
-    }
-
-    &.highlight {
-      color: $selected_bg_color;
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3c94f1e97d00766fe0600601b22f4062c23acc347923856a8b36579697ae1613
+size 572

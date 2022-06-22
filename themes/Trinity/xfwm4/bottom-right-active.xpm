@@ -1,8 +1,3 @@
-/* XPM */
-static char *bottom_right_active[] = {
-/* columns rows colors chars-per-pixel */
-"1 1 1 1 ",
-"  c #008000",
-/* pixels */
-" "
-};
+version https://git-lfs.github.com/spec/v1
+oid sha256:0034585fa42515c19652e789ed1ffa9e956e65a3d28542579179cd2752eb0b7d
+size 138

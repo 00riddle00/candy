@@ -1,16 +1,3 @@
-@mixin app_notifications() {
-  .app-notification {
-    border-style: solid;
-    border-color: $borders;
-    border-width: 1px;
-    border-radius: 0;
-    margin: 5px;
-    padding: 8px;
-    background-color: $base_color;
-    color: $text_color;
-    
-    border {
-      border: none;
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:78a8139ba7e7fc5e4606bd07ee02221115b43595d36c1440e21bc288fe545a50
+size 293

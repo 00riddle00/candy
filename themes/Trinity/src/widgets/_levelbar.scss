@@ -1,35 +1,3 @@
-@mixin levelbar() {
-  levelbar {
-    trough {
-      padding: 1px;
-      border-radius: 0;
-    }
-
-    &.horizontal.discrete block {
-      margin: 0 1px;
-    }
-
-    &.vertical.discrete block {
-      margin: 1px 0;
-    }
-
-    block {
-      border: none;
-      padding: 2px;
-      border-radius: $progressbar_radius;
-      background-color: $selected_bg_color;
-
-      &.high {
-        background-color: gtkshade($success_color, 0.9);
-      }
-
-      &.low {
-        background-color: gtkshade($warning_color, 0.9);
-      }
-
-      &.empty {
-        background-color: gtkalpha($dark_shadow, 0.1);
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2bfa1c6f6eb2aa8027a88ba967fb08247573fb7f479f44d4b0b300739076ea98
+size 610

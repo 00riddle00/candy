@@ -1,32 +1,3 @@
-@mixin list() {
-  list {
-    color: $fg_color;
-    background-color: $bg_color;
-
-    row {
-      padding: 2px;
-
-      &:backdrop {
-        color: $unfocused_fg_color;
-      }
-
-      &:selected {
-        &, &:hover, &:focus {
-          border: none;
-          color: $selected_fg_color;
-          background-color: $selected_bg_color;
-        }
-
-        &:disabled {
-          color: gtkalpha($selected_fg_color, 0.7);
-          background-color: gtkalpha($selected_bg_color, 0.9);
-        }
-        
-        &:backdrop {
-          color: $unfocused_selected_fg_color;
-          background-color: $unfocused_selected_bg_color;
-        }
-      }
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:8aef3d2f599cf0939033da21ba7ebbd53958bd23b15a48422ebbaaa6abf6ec6b
+size 656

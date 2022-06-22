@@ -1,19 +1,3 @@
-#!/bin/bash
-
-fail() { tput setaf 1 && echo 'ERROR: '$@ && exit 1; }
-
-AZURRA_PATH=$HOME/Github/Azurra_framework
-
-[ ! -d $AZURRA_PATH ] && fail 'Source directory not found. You need a copy of https://github.com/B00merang-Project/Azurra_framework installed'
-
-input="sources"
-while IFS= read -r line
-do
-  cp -r $AZURRA_PATH/$line src/widgets
-done < "$input"
-
-cp -r $AZURRA_PATH/Azurra/_functions.scss src
-cp -r $AZURRA_PATH/Azurra/_colors_public.scss src
-cp -r $AZURRA_PATH/Azurra/_common.scss src
-
-echo "Sources updated"
+version https://git-lfs.github.com/spec/v1
+oid sha256:707f3210e7984c43386ab29b9b6a7c9783bb2c3cdcdac32e4f6a07a8471778ba
+size 518

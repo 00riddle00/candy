@@ -1,24 +1,3 @@
-@mixin menubar_menuitem() {
-  menubar > menuitem, .menubar > menuitem {
-    padding: 3px 5px;
-    border: 1px solid transparent;
-    color: $menubar_fg_color;
-    background-color: transparent;
-
-    &:hover {
-      border-color: $borders;
-      color: $selected_fg_color;
-      background-color: $selected_bg_color;
-    }
-
-    &:disabled {
-      color: $disabled_fg_color;
-      background-color: transparent;
-    }
-
-    &:backdrop {
-      color: $unfocused_fg_color;
-      background-color: transparent;
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:2d3a069509ca8b81de89915ccb305e9d1d9dd06caa8b3388857c5b7cb919ef54
+size 517

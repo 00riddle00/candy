@@ -1,20 +1,3 @@
-// Register functions
-@function gtkalpha($c,$a) {
-  @return unquote("alpha(#{$c}, #{$a})");
-}
-
-@function hex2rgba($color, $opacity) {
-  @return rgba($color, $opacity);
-}
-
-@function gtkmix($c1,$c2,$r) {
-  @return unquote("mix(#{$c1}, #{$c2}, #{$r})");
-}
-
-@function gtkshade($c,$s) {
-  @return unquote("shade(#{$c}, #{$s})");
-}
-
-@function gtkscale($name, $type) {
-  @return -gtk-scaled(url($name + $type), url($name + "-@2" + $type));
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b52bd99acb4ae5b807d541fa63ed03d55b75d6f6909892001905f942de739ecb
+size 435

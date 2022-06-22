@@ -1,19 +1,3 @@
-@mixin inline_toolbar() {
-  .inline-toolbar {
-    padding: 1px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: gtkmix($borders, $toolbar_bg_color, 0.5);
-    border-radius: 0;
-    background-color: $toolbar_bg_color;
-
-    &:backdrop {
-      border-color: $unfocused_borders;
-      background-color: $unfocused_bg_color;
-    }
-
-    toolbutton > button {
-      @include normal_buttons($toolbar_bg_color, $toolbar_fg_color, $borders);
-    }
-  } 
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:bb027b2f3c511c6e2d56ac50a2c4625cdf70745974fe507736f25584bd42adac
+size 463

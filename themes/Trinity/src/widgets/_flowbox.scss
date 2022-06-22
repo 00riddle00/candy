@@ -1,12 +1,3 @@
-@mixin flowbox() {
-  flowbox flowboxchild {
-    padding: 3px;
-    border-radius: $roundness;
-
-    &:selected {
-      outline-offset: -2px;
-      color: $selected_fg_color;
-      background-color: $selected_bg_color;
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:a85505a70cc2f6fc9bc7bc77e73451bfd3617717a9c88b1b17137db0cf05b042
+size 228

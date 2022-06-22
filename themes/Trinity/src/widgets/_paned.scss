@@ -1,21 +1,3 @@
-@mixin paned() {
-  paned {
-    > separator {
-      border: none;
-      color: transparent;
-      background-color: $borders;
-
-      &:backdrop {
-        background-color: $unfocused_borders;
-      }
-
-      &:selected {
-        background-color: $borders;
-      }
-    }
-
-    .sidebar.left, .sidebar.right, .sidebar.left:dir(rtl), .sidebar:dir(rtl), .sidebar:dir(ltr), .sidebar {
-      border-style: none;
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:285858edcb3055264283b1e3552dab77311e6a645e65f8e375a31a1c0c7a5980
+size 416

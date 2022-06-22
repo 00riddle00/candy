@@ -1,27 +1,3 @@
-@mixin toolbar() {
-  toolbar {
-    padding: 4px;
-    border: none;
-    color: $toolbar_fg_color;
-    background-color: $toolbar_bg_color;
-
-    &:backdrop {
-      color: $unfocused_fg_color;
-      background-color: $unfocused_bg_color;
-    }
-
-    &:disabled {
-      color: $disabled_fg_color;
-      background-color: $disabled_bg_color;
-    }
-
-    button.flat {
-      @include flat_buttons(transparent, $toolbar_fg_color, transparent);
-    }
-
-    // menubar toolbars 
-    menubar {
-      -GtkToolbar-button-relief: normal;
-    }
-  }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:9d5607f66f48cde09e9138bf92c29a660e1ff46da41d76cd291bd397033abb34
+size 534
